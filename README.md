@@ -46,4 +46,4 @@ Running ’SurvivalAnalysis.R’ will does the following, in order:
 
 ## Problems/Bugs/Queries
 
-If you download the software and have trouble making it work, or have a query regarding the paper, 
+If you download the software and have trouble making it work, or have a query regarding the paper, please email: ben.dickie@postgrad.manchester.ac.uk
