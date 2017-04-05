@@ -47,4 +47,4 @@ Running ’SurvivalAnalysis.R’ will does the following, in order:
 7. Make a plot showing DFS risk predictions for each variable in the alternative model, adjusted for all other variables in the model.  
 ## Problems/Bugs/Queries
 
-If you download the software and have trouble making it work, or have a query regarding the paper, please email: ben.dickie@postgrad.manchester.ac.uk
+If you download the software and have trouble making it work, or have a query regarding the paper, please email: ben.dickie@manchester.ac.uk
