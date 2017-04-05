@@ -1,7 +1,7 @@
 # Software for Survival Analysis in Patients with Locally Advanced Cervical Cancer
 
 ## Introduction
-The enclosed code runs survival analysis on a cohort of cervical cancer patients recruited as part of a prospective clinical trial at the Christie Hospital NHS Foundation Trust, Manchester, UK. The analysis compares the prognostic value of standard clinicopathologic variables to those obtained from dynamic contrast enhanced (DCE) MRI data (two-compartment exchange model parameters, 2CXM). Univariate and multivariate survival analyses are performed to infer the most prognostic parameters for disease-free survival. The null hypothesis of no difference in predictive accuracy between a model trained using clinicopathologic variables alone and a model trained using the top 6 clinicopathologic and 2CXM variables is tested. Results in press at British Journal of Cancer. 
+The enclosed code runs survival analysis on a cohort of cervical cancer patients recruited as part of a prospective clinical trial at the Christie Hospital NHS Foundation Trust, Manchester, UK. The analysis compares the prognostic value of standard clinicopathologic variables to those obtained from dynamic contrast enhanced (DCE) MRI data (two-compartment exchange model parameters, 2CXM). Univariate and multivariate survival analyses are performed to infer the most prognostic parameters for disease-free survival. The null hypothesis of no difference in predictive accuracy between a model trained using clinicopathologic variables alone and a model trained using the top 6 clinicopathologic and 2CXM variables is tested. Results in press in British Journal of Cancer. 
 
 ## Other software requirements 
 
