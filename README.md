@@ -1,7 +1,7 @@
 # Software for Survival Analysis in Patients with Locally Advanced Cervical Cancer
 
 ## Introduction
-The enclosed code runs survival analysis on a cohort of cervical cancer patients recruited as part of a prospective clinical trial at the Christie Hospital NHS Foundation Trust, Manchester, UK. The analysis compares the prognostic value of standard clinicopathologic variables to those obtained from dynamic contrast enhanced (DCE) MRI data (two-compartment exchange model parameters, 2CXM). Univariate and multivariate survival analyses are performed to infer the most prognostic parameters for disease-free survival. The null hypothesis of no difference in predictive accuracy between a model trained using clinicopathologic variables alone and a model trained using the top 6 clinicopathologic and 2CXM variables is tested. 
+The enclosed code runs survival analysis on a cohort of cervical cancer patients recruited as part of a prospective clinical trial at the Christie Hospital NHS Foundation Trust, Manchester, UK. The analysis compares the prognostic value of standard clinicopathologic variables to those obtained from dynamic contrast enhanced (DCE) MRI data (two-compartment exchange model parameters, 2CXM). Univariate and multivariate survival analyses are performed to infer the most prognostic parameters for disease-free survival. The null hypothesis of no difference in predictive accuracy between a model trained using clinicopathologic variables alone and a model trained using the top 6 clinicopathologic and 2CXM variables is tested. Results in press at British Journal of Cancer. 
 
 ## Other software requirements 
 
@@ -38,13 +38,13 @@ Open the R script ’SurvivalAnalysis.R’ in RStudio. Click the ‘Source’ bu
 
 Running ’SurvivalAnalysis.R’ will does the following, in order:
 
-1. Generates Kaplan-Meier curves for 2CXM and clinicopathologic variables.  
+1. Generates Kaplan-Meier curves for all 2CXM clinicopathologic variables.  
 2. Fits a multivariate random survival forest model to all clinicopathologic and 2CXM variables in a bootstrapping framework. Computes point estimates and 95% confidence intervals on median variable importance (VIMP). 
 3. Defines a null model as one containing only clinicopathologic variables.
 4. Selects the top 6 predictors (highest VIMP) for an alternative model. 
 5. Performs a leave-one-patient-out analysis on null and alternative models, computing the accuracy of models on the left out patient
-6. Tests the null hypothesis of no difference in predictive accuracy between null and alternative models
-7. Make a plot showing 3-year DFS predictions for each variable in the alternative model, adjusted for all other variables in the model.  
+6. Tests the null hypothesis of no difference in predictive accuracy between null and alternative models.
+7. Make a plot showing DFS risk predictions for each variable in the alternative model, adjusted for all other variables in the model.  
 ## Problems/Bugs/Queries
 
 If you download the software and have trouble making it work, or have a query regarding the paper, please email: ben.dickie@postgrad.manchester.ac.uk
